@@ -71,5 +71,7 @@ void autonomous() {}
  * task, not resume it from where it left off.
  */
 void opcontrol() {
-	motor.set_velocity_custom_controller(3600); 
+	while(true){
+		motor.set_velocity_custom_controller(3600); 
+	}
 }
