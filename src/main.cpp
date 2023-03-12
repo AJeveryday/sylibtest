@@ -19,7 +19,7 @@
  
     // Create a motor object on port 17, with a green cart, set as reversed, and with
     // motor_speed_controller as a custom velocity controller
-    auto motor = sylib::Motor(17,200, true, motor_speed_controller);
+    auto motor = sylib::Motor(5,200, true, motor_speed_controller);
 
 
 void initialize() {
